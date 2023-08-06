@@ -11,8 +11,9 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-DEVELOPER_CHAT_ID = os.getenv("DEVELOPER_CHAT_ID","6052271063")
-TOKEN=os.getenv("TOKEN","6116569761:AAFtFMJWSRKnLizqAqEzuGfN_QviZuIScQ8")
+# serup .env file
+DEVELOPER_CHAT_ID = os.getenv("DEVELOPER_CHAT_ID")
+TOKEN=os.getenv("TOKEN")
 
 
 
