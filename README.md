@@ -1,3 +1,8 @@
-1 . create .env variable
-2 . python3 -m venv venv
-3 . pip install -r requirements.txt
+# 1 . create .env variable
+# 2 . local dev : 
+```bash
+python3 -m venv venv
+pip install -r requirements.txt
+```
+
+# 3 . production use Jinkens use Dockerfile
